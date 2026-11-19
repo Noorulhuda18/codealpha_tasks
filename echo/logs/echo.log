@@ -1,0 +1,2269 @@
+2026-11-16 23:30:47,869 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:30:47,893 WARNING echo.app: preprocessing the dataset failed: All 2 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-16 23:31:03,294 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:31:03,297 WARNING echo.app: preprocessing the dataset failed: All 2 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-16 23:31:28,802 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:31:28,807 WARNING echo.app: preprocessing the dataset failed: All 3 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-16 23:32:01,426 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:32:01,428 WARNING echo.app: preprocessing the dataset failed: All 3 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-16 23:32:42,726 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:32:42,729 WARNING echo.app: preprocessing the dataset failed: All 3 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-16 23:34:17,457 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:34:17,461 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-06-r1-2018-wav-3.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:34:17,468 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-07-r1-2018-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:34:17,471 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital9-11-mid-audio-09-r1-2018-wav-6.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:34:17,473 WARNING echo.app: preprocessing the dataset failed: All 6 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-16 23:34:35,832 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:34:35,837 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-06-r1-2018-wav-3.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:34:35,845 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-07-r1-2018-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:34:35,850 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital9-11-mid-audio-09-r1-2018-wav-6.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:34:35,855 WARNING echo.app: training the model failed: All 6 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-16 23:36:01,027 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:36:01,037 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-06-r1-2018-wav-3.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:36:01,050 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-07-r1-2018-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:36:01,054 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital9-11-mid-audio-09-r1-2018-wav-6.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:36:01,057 WARNING echo.app: preprocessing the dataset failed: All 6 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-16 23:36:35,432 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:36:35,435 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-06-r1-2018-wav-3.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:36:35,449 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-07-r1-2018-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:36:35,453 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital9-11-mid-audio-09-r1-2018-wav-6.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:36:35,455 WARNING echo.app: training the model failed: All 6 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-16 23:36:49,080 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:36:49,083 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-06-r1-2018-wav-3.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:36:49,088 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-07-r1-2018-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:36:49,091 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital9-11-mid-audio-09-r1-2018-wav-6.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:36:49,095 WARNING echo.app: scanning the dataset failed: All 6 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-16 23:38:22,769 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:38:22,773 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-06-r1-2018-wav-3.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:38:22,780 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-07-r1-2018-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:38:22,784 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital9-11-mid-audio-09-r1-2018-wav-6.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:38:22,787 WARNING echo.app: preprocessing the dataset failed: All 6 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-16 23:38:27,538 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:38:27,542 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-06-r1-2018-wav-3.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:38:27,551 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-07-r1-2018-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:38:27,555 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital9-11-mid-audio-09-r1-2018-wav-6.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:38:27,560 WARNING echo.app: training the model failed: All 6 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-16 23:41:06,512 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-10-13-group-mid-audio-08-r3-2013-wav-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:41:06,521 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-8-13-group-mid-audio-04-r2-2013-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:41:06,527 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:41:06,535 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-06-r1-2018-wav-3.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:41:06,550 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-07-r1-2018-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:41:06,556 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital9-11-mid-audio-09-r1-2018-wav-6.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:41:06,560 WARNING echo.app: preprocessing the dataset failed: All 8 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-16 23:43:05,378 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-10-13-group-mid-audio-08-r3-2013-wav-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:43:05,381 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-8-13-group-mid-audio-04-r2-2013-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:43:05,389 WARNING echo.app: preprocessing the dataset failed: All 2 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-16 23:44:40,037 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-10-13-group-mid-audio-08-r3-2013-wav-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:44:40,039 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-8-13-group-mid-audio-04-r2-2013-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:44:40,044 WARNING echo.app: scanning the dataset failed: All 2 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-16 23:45:23,506 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-10-13-group-mid-audio-08-r3-2013-wav-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:45:23,509 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-8-13-group-mid-audio-04-r2-2013-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:45:23,515 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:45:23,517 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-06-r1-2018-wav-3.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:45:23,520 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-07-r1-2018-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:45:23,526 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital9-11-mid-audio-09-r1-2018-wav-6.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:45:23,528 WARNING echo.app: preprocessing the dataset failed: All 8 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-16 23:46:37,705 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-10-13-group-mid-audio-08-r3-2013-wav-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:46:37,708 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-8-13-group-mid-audio-04-r2-2013-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:46:37,714 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:46:37,719 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-06-r1-2018-wav-3.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:46:37,723 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-07-r1-2018-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:46:37,728 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital9-11-mid-audio-09-r1-2018-wav-6.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:46:37,735 WARNING echo.app: training the model failed: All 8 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-16 23:48:15,194 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-10-13-group-mid-audio-08-r3-2013-wav-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:48:15,197 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-8-13-group-mid-audio-04-r2-2013-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:48:15,204 WARNING echo.app: scanning the dataset failed: All 2 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-16 23:48:28,296 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-10-13-group-mid-audio-08-r3-2013-wav-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:48:28,298 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-8-13-group-mid-audio-04-r2-2013-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:48:28,300 WARNING echo.app: scanning the dataset failed: All 2 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-16 23:48:35,850 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-10-13-group-mid-audio-08-r3-2013-wav-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:48:35,853 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-8-13-group-mid-audio-04-r2-2013-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:48:35,856 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:48:35,858 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-06-r1-2018-wav-3.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:48:35,862 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-07-r1-2018-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:48:35,864 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital9-11-mid-audio-09-r1-2018-wav-6.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-16 23:48:35,866 WARNING echo.app: scanning the dataset failed: All 8 MIDI files were skipped (corrupt, empty or too short). See the skipped-files list for each reason.
+2026-11-17 00:00:59,554 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-10-13-group-mid-audio-08-r3-2013-wav-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:00:59,558 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-7-13-group-mid-audio-13-r1-2013-wav-4.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:00:59,563 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-8-13-group-mid-audio-04-r2-2013-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:00:59,568 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:00:59,571 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-06-r1-2018-wav-3.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:00:59,574 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-07-r1-2018-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:00:59,577 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital9-11-mid-audio-09-r1-2018-wav-6.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:00:59,583 WARNING echo.app: preprocessing the dataset failed: All 9 MIDI files were skipped.
+
+Detailed reasons:
+- orig-midi-01-7-10-13-group-mid-audio-08-r3-2013-wav-2.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+- orig-midi-01-7-7-13-group-mid-audio-13-r1-2013-wav-4.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+- orig-midi-01-7-8-13-group-mid-audio-04-r2-2013-wav-1.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+- midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+- midi-unprocessed-recital5-7-mid-audio-06-r1-2018-wav-3.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+- midi-unprocessed-recital5-7-mid-audio-07-r1-2018-wav-1.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+- midi-unprocessed-recital9-11-mid-audio-09-r1-2018-wav-6.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:01:23,775 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-10-13-group-mid-audio-08-r3-2013-wav-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:01:23,779 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-7-13-group-mid-audio-13-r1-2013-wav-4.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:01:23,787 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-8-13-group-mid-audio-04-r2-2013-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:01:23,790 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:01:23,794 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-06-r1-2018-wav-3.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:01:23,800 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-07-r1-2018-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:01:23,805 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital9-11-mid-audio-09-r1-2018-wav-6.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1142, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pretty_midi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:01:23,808 WARNING echo.app: training the model failed: All 9 MIDI files were skipped.
+
+Detailed reasons:
+- orig-midi-01-7-10-13-group-mid-audio-08-r3-2013-wav-2.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+- orig-midi-01-7-7-13-group-mid-audio-13-r1-2013-wav-4.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+- orig-midi-01-7-8-13-group-mid-audio-04-r2-2013-wav-1.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+- midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+- midi-unprocessed-recital5-7-mid-audio-06-r1-2018-wav-3.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+- midi-unprocessed-recital5-7-mid-audio-07-r1-2018-wav-1.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+- midi-unprocessed-recital9-11-mid-audio-09-r1-2018-wav-6.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pretty_midi'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:06:13,200 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-10-13-group-mid-audio-08-r3-2013-wav-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\__init__.py", line 145, in <module>
+    from .pretty_midi import *
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\pretty_midi.py", line 17, in <module>
+    from .instrument import Instrument
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\instrument.py", line 11, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pkg_resources'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:06:13,224 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-7-13-group-mid-audio-13-r1-2013-wav-4.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\__init__.py", line 145, in <module>
+    from .pretty_midi import *
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\pretty_midi.py", line 17, in <module>
+    from .instrument import Instrument
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\instrument.py", line 11, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pkg_resources'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:06:13,250 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\classical\orig-midi-01-7-8-13-group-mid-audio-04-r2-2013-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\__init__.py", line 145, in <module>
+    from .pretty_midi import *
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\pretty_midi.py", line 17, in <module>
+    from .instrument import Instrument
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\instrument.py", line 11, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pkg_resources'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:06:13,271 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\__init__.py", line 145, in <module>
+    from .pretty_midi import *
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\pretty_midi.py", line 17, in <module>
+    from .instrument import Instrument
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\instrument.py", line 11, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pkg_resources'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:06:13,287 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-06-r1-2018-wav-3.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\__init__.py", line 145, in <module>
+    from .pretty_midi import *
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\pretty_midi.py", line 17, in <module>
+    from .instrument import Instrument
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\instrument.py", line 11, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pkg_resources'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:06:13,302 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital5-7-mid-audio-07-r1-2018-wav-1.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\__init__.py", line 145, in <module>
+    from .pretty_midi import *
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\pretty_midi.py", line 17, in <module>
+    from .instrument import Instrument
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\instrument.py", line 11, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pkg_resources'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:06:13,321 ERROR echo.preprocessing: Unexpected error while reading C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\data\raw\jazz\midi-unprocessed-recital9-11-mid-audio-09-r1-2018-wav-6.midi
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 155, in require_module
+    return importlib.import_module(import_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\__init__.py", line 145, in <module>
+    from .pretty_midi import *
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\pretty_midi.py", line 17, in <module>
+    from .instrument import Instrument
+  File "C:\Users\ahmad_8xrkrl\AppData\Local\Programs\Python\Python311\Lib\site-packages\pretty_midi\instrument.py", line 11, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 436, in preprocess_dataset
+    events = loader(path)
+             ^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\preprocessing.py", line 120, in load_midi_events
+    pretty_midi = require_module("pretty_midi")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\src\utils.py", line 158, in require_module
+    raise DependencyError(
+src.utils.DependencyError: The package 'pretty_midi' is not installed or failed to load (No module named 'pkg_resources'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:06:13,330 WARNING echo.app: preprocessing the dataset failed: All 9 MIDI files were skipped.
+
+Detailed reasons:
+- orig-midi-01-7-10-13-group-mid-audio-08-r3-2013-wav-2.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pkg_resources'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+- orig-midi-01-7-7-13-group-mid-audio-13-r1-2013-wav-4.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pkg_resources'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+- orig-midi-01-7-8-13-group-mid-audio-04-r2-2013-wav-1.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pkg_resources'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+- midi-unprocessed-09-10-r1-2014-mid-audio-10-r1-2014-wav-4-2.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pkg_resources'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+- midi-unprocessed-recital5-7-mid-audio-06-r1-2018-wav-3.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pkg_resources'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+- midi-unprocessed-recital5-7-mid-audio-07-r1-2018-wav-1.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pkg_resources'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+- midi-unprocessed-recital9-11-mid-audio-09-r1-2018-wav-6.midi: unexpected error: The package 'pretty_midi' is not installed or failed to load (No module named 'pkg_resources'). Activate your virtual environment and run: pip install -r requirements.txt   (or: pip install pretty_midi==0.2.10)
+2026-11-17 00:18:04,058 INFO echo.train: Trained model 'all': {'epochs_run': 8, 'best_epoch': 8, 'best_val_loss': 4.931983470916748, 'final_train_loss': 3.759042739868164, 'best_val_accuracy': 0.08016443997621536}
+2026-11-17 00:19:30,234 INFO echo.midi_export: Wrote C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\outputs\midi\echo_all_100bpm_20261116-191930_s566158047.mid (188 notes)
+2026-11-17 00:19:30,237 INFO echo.generate: Generated 200 events (50.0 beats) from 'all' in 56.8s -> C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\outputs\midi\echo_all_100bpm_20261116-191930_s566158047.mid
+2026-11-17 19:49:01,414 INFO echo.train: Trained model 'all': {'epochs_run': 8, 'best_epoch': 8, 'best_val_loss': 4.8870110511779785, 'final_train_loss': 3.7387733459472656, 'best_val_accuracy': 0.07965056598186493}
+2026-11-17 19:50:00,676 INFO echo.midi_export: Wrote C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\outputs\midi\echo_all_100bpm_20261117-145000_s2009974863.mid (152 notes)
+2026-11-17 19:50:00,678 INFO echo.generate: Generated 175 events (50.0 beats) from 'all' in 24.0s -> C:\Users\ahmad_8xrkrl\OneDrive\Desktop\echo\outputs\midi\echo_all_100bpm_20261117-145000_s2009974863.mid

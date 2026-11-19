@@ -1,0 +1,54 @@
+{
+  "status": "completed",
+  "model_name": "all",
+  "genre": "all",
+  "trained_at": "2026-11-17T14:49:01+00:00",
+  "echo_version": "1.0.0",
+  "tensorflow_version": "2.21.0",
+  "model_file": "model.keras",
+  "config": {
+    "seq_len": 24,
+    "embedding_dim": 32,
+    "lstm_units": 64,
+    "num_layers": 1,
+    "dropout": 0.3,
+    "learning_rate": 0.002,
+    "batch_size": 128,
+    "epochs": 8,
+    "patience": 4,
+    "stride": 2,
+    "val_fraction": 0.15,
+    "min_event_count": 2,
+    "seed": 42
+  },
+  "vocab_size": 357,
+  "vocab_fingerprint": "ff25595dff4dcb5b",
+  "duration_classes": [
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    4.0
+  ],
+  "dataset": {
+    "files_discovered": 11,
+    "files_processed": 8,
+    "files_skipped": 0,
+    "total_events": 32726,
+    "split_strategy": "by_file",
+    "train_windows": 14285,
+    "val_windows": 1946,
+    "dataset_fingerprint": "02a19e19a2bfedfa"
+  },
+  "metrics": {
+    "epochs_run": 8,
+    "best_epoch": 8,
+    "best_val_loss": 4.8870110511779785,
+    "final_train_loss": 3.7387733459472656,
+    "best_val_accuracy": 0.07965056598186493
+  },
+  "training_seconds": 62.8
+}

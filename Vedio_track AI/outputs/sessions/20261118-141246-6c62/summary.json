@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-11-18T14:18:53",
+  "session": {
+    "session_id": "20261118-141246-6c62",
+    "source": "video",
+    "source_name": "WhatsApp Video 2026-11-18 at 2.10.43 PM.mp4",
+    "created_at": "2026-11-18T14:12:46",
+    "model": "yolo11n.pt",
+    "device": "cpu",
+    "tracker": "bytetrack",
+    "settings": {
+      "model_name": "yolo11n.pt",
+      "device": "auto",
+      "tracker": "bytetrack",
+      "conf": 0.35,
+      "iou": 0.5,
+      "classes": [],
+      "imgsz": 640,
+      "frame_interval": 1,
+      "max_width": 960,
+      "show_boxes": true,
+      "show_labels": true,
+      "show_ids": true,
+      "show_conf": true,
+      "show_trails": false,
+      "trail_length": 30,
+      "track_buffer": 30,
+      "match_thresh": 0.8
+    },
+    "video": {
+      "path": "C:\\Users\\ahmad_8xrkrl\\OneDrive\\Desktop\\Vedio_track AI\\outputs\\_uploads\\95a65b6d_WhatsApp_Video_2026-11-18_at_2.10.43_PM.mp4",
+      "name": "95a65b6d_WhatsApp_Video_2026-11-18_at_2.10.43_PM.mp4",
+      "width": 848,
+      "height": 478,
+      "fps": 29.875,
+      "frame_count": 281,
+      "duration_s": 9.41,
+      "size_bytes": 2301048
+    },
+    "status": "completed",
+    "frame_size": [
+      848,
+      478
+    ],
+    "processed_video": "processed.mp4",
+    "video_playable_in_browser": true
+  },
+  "totals": {
+    "total_detections": 590,
+    "unique_tracks": 13,
+    "frames_processed": 281
+  },
+  "most_frequent_object": {
+    "class_name": "bottle",
+    "detections": 368,
+    "share_pct": 62.4
+  },
+  "classes": [
+    {
+      "class_name": "bottle",
+      "detections": 368,
+      "unique_tracks": 8,
+      "avg_confidence": 67.1,
+      "share_pct": 62.4
+    },
+    {
+      "class_name": "carrot",
+      "detections": 130,
+      "unique_tracks": 3,
+      "avg_confidence": 66.4,
+      "share_pct": 22.0
+    },
+    {
+      "class_name": "vase",
+      "detections": 48,
+      "unique_tracks": 2,
+      "avg_confidence": 46.7,
+      "share_pct": 8.1
+    },
+    {
+      "class_name": "person",
+      "detections": 32,
+      "unique_tracks": 2,
+      "avg_confidence": 58.8,
+      "share_pct": 5.4
+    },
+    {
+      "class_name": "dog",
+      "detections": 7,
+      "unique_tracks": 1,
+      "avg_confidence": 46.6,
+      "share_pct": 1.2
+    },
+    {
+      "class_name": "cat",
+      "detections": 4,
+      "unique_tracks": 1,
+      "avg_confidence": 42.9,
+      "share_pct": 0.7
+    },
+    {
+      "class_name": "cell phone",
+      "detections": 1,
+      "unique_tracks": 1,
+      "avg_confidence": 47.9,
+      "share_pct": 0.2
+    }
+  ],
+  "performance": {
+    "frames": 281,
+    "avg_fps": 1.51,
+    "median_fps": 0.7,
+    "min_fps": 0.14,
+    "max_fps": 8.65,
+    "avg_latency_ms": 1284.49,
+    "p95_latency_ms": 2022.73,
+    "processing_time_s": 360.94
+  },
+  "tracking": {
+    "unique_tracks": 13,
+    "avg_track_duration_s": 1.69,
+    "longest_track": {
+      "track_id": 1,
+      "class_name": "bottle",
+      "frames_seen": 246,
+      "duration_s": 9.37
+    }
+  }
+}

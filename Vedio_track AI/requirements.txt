@@ -1,0 +1,24 @@
+# VisionTrack AI - Python 3.10 to 3.12
+#
+# Windows / CPU-only tip: install the small CPU build of PyTorch FIRST, then this file:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements.txt
+
+# --- Interface ---
+streamlit>=1.50.0
+streamlit-webrtc>=0.55.0      # real-time webcam streaming (pulls in av + aiortc)
+plotly>=5.18.0
+
+# --- Computer vision / AI ---
+ultralytics>=8.3.0            # YOLO11 / YOLOv8 + ByteTrack + BoT-SORT (pulls in torch)
+opencv-python>=4.8.0
+lapx>=0.5.5                   # linear assignment solver required by the trackers
+imageio-ffmpeg>=0.4.9         # bundled ffmpeg: re-encodes output to browser-playable H.264
+
+# --- Data ---
+numpy>=1.24.0
+pandas>=2.0.0
+Pillow>=10.0.0
+
+# --- Tests (optional) ---
+pytest>=7.4.0
